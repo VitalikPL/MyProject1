@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url(img/fon.png);
+  font: 16px/24px Arial, Tahoma, sans-serif; }
+
+header {
+  background-image: url(img/header.jpg);
+  background-size: cover;
+  height: 255px; }
+
+.gif1 {
+  float: left;
+  margin: 20px 40px 20px 20px; }
+
+nav {
+  text-align: right;
+  line-height: 60px; }
+
+nav a {
+  margin: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
+  text-decoration: none;
+  border: 2px solid #001484;
+  border-radius: 20px;
+  color: #5c00ff;
+  background-image: url(img/cnop.png);
+  box-shadow: 0px 0px 20px 4px rgba(33, 33, 33, 0.75);
+  transition: 0.3s;
+  text-shadow: 1px 1px 20px #0066ff; }
+
+nav a:hover {
+  padding: 12px 12px 12px 12px;
+  border: 2px solid #4a58a0;
+  color: #bc9af9;
+  background-color: #120031;
+  text-shadow: 1px 1px 20px #fff; }
+
+.marq {
+  color: red;
+  background-color: black; }
+
+.bar {
+  line-height: 40px;
+  background-image: url(img/bar.jpg);
+  background-size: cover;
+  border: 1px solid #000000;
+  padding: 6px 20px 6px 20px;
+  box-shadow: 0px 0px 30px 5px rgba(43, 43, 43, 0.75); }
+
+.bar a {
+  padding: 6px 10px 6px 10px;
+  margin: 4px 20px 4px 20px;
+  border: 2px solid white;
+  text-decoration: none;
+  border-radius: 4px;
+  color: white;
+  background-image: url(img/fon.png);
+  box-shadow: 0px 0px 30px 3px rgba(255, 0, 0, 0.75);
+  transition: 0.4s; }
+
+.bar a:hover {
+  padding: 10px 10px 10px 10px;
+  color: red;
+  box-shadow: 0px 0px 20px 8px rgba(255, 0, 0, 0.75);
+  border: 2px solid #f76666; }
+
+/*MENU*/
+.menui {
+  padding: 20px 20px 20px 20px;
+  float: left; }
+
+.leftop, .centerop, .rightop {
+  width: 320px; }
+
+summary {
+  color: white;
+  text-shadow: 1px 1px 20px #fff;
+  margin-right: 100px; }
+
+p {
+  color: #ffffff;
+  text-shadow: 1px 1px 10px #ffffff;
+  font-size: 18px; }
+
+div.menua {
+  display: flex;
+  justify-content: space-between; }
+
+h2 {
+  color: white;
+  text-shadow: 0px 0px 10px #fff; }
+
+.WALL1, .WALL2, .WALL3 {
+  margin: 10px 10px 10px 10px;
+  height: 200px;
+  width: 300px;
+  border: 1px solid #000000;
+  position: relative;
+  box-shadow: 1px 1px 10px #2f2f2f;
+  background-image: url(img/menur1.jpg); }
+
+.WALL1_under1, .WALL1_under2, .WALL1_under3 {
+  background: rgba(100, 100, 115, 0.3);
+  height: 200px;
+  width: 300px;
+  position: absolute;
+  display: none;
+  text-align: center; }
+
+.WALL1:hover .WALL1_under1, .WALL2:hover .WALL1_under1, .WALL3:hover .WALL1_under1 {
+  display: block; }
+
+.WALL2 {
+  background-image: url(img/menur2.jpg); }
+
+.WALL2:hover .WALL1_under2 {
+  display: block; }
+
+.WALL3 {
+  background-image: url(img/menur3.jpg); }
+
+.WALL3:hover .WALL1_under3 {
+  display: block; }
+
+/*# sourceMappingURL=index.css.map */
